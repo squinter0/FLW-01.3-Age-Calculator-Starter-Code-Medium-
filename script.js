@@ -36,6 +36,6 @@ ageButton.onclick = function() {
  age = currentYear - Number(inputYear.value)
 
   // task 11: using .innerHTML, update message to display the userName and age. Use string interpolation for this to have a personalized message like: userName, it looks like you are (turning) age years old!
-message.innerHTML =`${userName}, it looks like you are turning ${age} years old! `
+message.innerHTML =`${userName}, it looks like you are turning ${age} years old! What a great age to be :)`
   
 }
